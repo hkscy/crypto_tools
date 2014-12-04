@@ -29,4 +29,4 @@ for i in range(n):
 			invertible_elements.append(j)
 	print
 print 'The list of invertible elements in modulo ' + str(n) + ' is:'
-print invertible_elements
+print sorted(invertible_elements)
